@@ -12,3 +12,11 @@ La aplicación dispone de 2 controller para facilitar las pruebas:
 Se puede acceder a los servicios a través del siguiente endpoint: http://localhost:8080/swagger-ui.html
 
 Y a la consola de la BBDD H2 desde: http://localhost:8080/h2-console
+
+Instrucciones para las pruebas:
+
+1) Consumir tweets a través del siguiente endpoint: http://localhost:8080/twitter/search/{key}, donde {key} sería la palabra a buscar.
+
+invocar el servicio 1 o varias veces cambiando la {key} para cargar tweets en nuestra BBDD.
+
+2) Posteriormente, ya se podrían invocar el resto de Rest services.
