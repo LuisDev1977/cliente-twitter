@@ -9,7 +9,7 @@ La aplicación dispone de 2 controller para facilitar las pruebas:
 1) twitter-buscador-controller: para consumir tweets
 2) tweet-controller: API-REST para la gestión de BBDD en memoria 
 
-Se puede acceder a los servicios a través del siguiente endpoint: http://localhost:8080/swagger-ui.html
+Se puede acceder a los servicios a través de la siguiente URL: http://localhost:8080/swagger-ui.html
 
 Y a la consola de la BBDD H2 desde: http://localhost:8080/h2-console
 
